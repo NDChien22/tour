@@ -1,0 +1,104 @@
+.tour-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tour-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.tour-header p {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+.tour-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.tour-description {
+    margin-top: 20px;
+}
+
+.tour-description h3 {
+    margin-bottom: 15px;
+}
+
+.tour-price {
+    font-size: 2rem;
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.tour-schedule {
+    margin-top: 30px;
+}
+
+.btn-book {
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.ratings {
+    margin-top: 15px;
+    color: #ffc107;
+}
+
+.content {
+    background-image: url('/img/background_topcontent.jpg'); /* Đường dẫn đến ảnh */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    background-size: cover; /* Đảm bảo ảnh phủ kín toàn bộ phần tử */
+    background-color: #000; /* Màu nền dự phòng khi ảnh không phủ kín */
+    width: 100%; /* Đảm bảo chiều rộng của phần tử là 100% */
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+/* Tour Reviews Section */
+.tour-reviews {
+    margin-top: 30px;
+    border-top: 1px solid #dee2e6;
+    padding-top: 20px;
+}
+
+/* Review List */
+.review-list {
+    margin-top: 20px;
+}
+
+.review-item {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.review-rating {
+    font-size: 1.25rem;
+    color: #ffcc00;
+    margin-bottom: 5px;
+}
+
+.review-content {
+    margin-top: 5px;
+}
+
+.review-content p {
+    margin: 0;
+}
+/* Nút Trở lại trang trước */
+.btn-secondary {
+    margin-bottom: 20px;
+}
+

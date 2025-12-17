@@ -1,0 +1,59 @@
+:root {
+    --card-bg: #ffffff;
+    --card-shadow: 0 20px 70px rgba(15, 23, 42, 0.12);
+    --border: #e5e7eb;
+    --muted: #475569;
+}
+
+body {
+    background-color: #f3f4f6;
+    color: #0f172a;
+}
+
+.content {
+    min-height: 100vh;
+    background: linear-gradient(120deg, rgba(16, 185, 129, 0.18), rgba(59, 130, 246, 0.18)),
+        url('/img/background_topcontent.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 48px 16px;
+}
+
+.profile-container {
+    width: min(920px, 100%);
+    margin: 0 auto;
+    padding: 28px 26px;
+    background-color: var(--card-bg);
+    box-shadow: var(--card-shadow);
+    border-radius: 14px;
+    border: 1px solid var(--border);
+}
+
+.profile-container h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.profile-container label {
+    color: var(--muted);
+    font-weight: 600;
+}
+
+.profile-container .form-control,
+.profile-container .form-control-plaintext {
+    border: 1px solid var(--border);
+    padding: 12px;
+    border-radius: 10px;
+    background-color: #f8fafc;
+}
+
+.profile-container .form-control-plaintext {
+    color: #0f172a;
+}
+
+.profile-container .btn-primary,
+.profile-container .btn-danger {
+    padding: 12px 14px;
+    font-weight: 600;
+    border-radius: 10px;
+}

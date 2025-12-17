@@ -1,0 +1,43 @@
+
+.login-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container .form-control {
+    border-radius: 20px;
+}
+
+.login-container .btn {
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.login-container .form-text {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-container .register-text {
+    text-align: center;
+    margin-top: 15px;
+    color: #555;
+}
+
+.content {
+    background-image: url('/img/background_topcontent.jpg'); /* Đường dẫn đến ảnh */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    background-size: cover; /* Đảm bảo ảnh phủ kín toàn bộ phần tử */
+    background-color: #000; /* Màu nền dự phòng khi ảnh không phủ kín */
+    width: 100%; /* Đảm bảo chiều rộng của phần tử là 100% */
+    height: 100vh;
+}

@@ -1,0 +1,62 @@
+/* Định dạng cho phần top-content */
+.top-content {
+    background-image: url('/img/background_topcontent.jpg');/* Đường dẫn đến ảnh */
+    background-size: cover; /* Để ảnh phủ kín toàn bộ phần tử */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    background-position: center; /* Đặt ảnh ở giữa */
+    background-color: #000; /* Màu nền dự phòng khi ảnh không tải */
+    width: 100%; /* Độ rộng của top-content */
+    height: 500px; /* Chiều cao của top-content */
+}
+
+/* Định dạng cho tour-card */
+.tour-card {
+    border: none; /* Bỏ border mặc định của card */
+    border-radius: 8px; /* Góc bo tròn */
+    overflow: hidden; /* Cắt phần thừa vượt ra ngoài của card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ cho card */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng khi hover */
+}
+
+/* Hiệu ứng khi hover trên tour-card */
+.tour-card:hover {
+    transform: translateY(-5px); /* Nâng card lên khi hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Tăng độ bóng khi hover */
+}
+
+/* Định dạng cho ảnh trong tour-card */
+.tour-card img {
+    border-bottom: 1px solid #dee2e6; /* Đường viền dưới của ảnh */
+    width: 100%; /* Đảm bảo ảnh phủ kín thẻ chứa */
+}
+
+/* Định dạng cho phần chi tiết của tour-card */
+.tour-details {
+    padding: 15px; /* Padding bên trong cho nội dung */
+    text-align: center; /* Căn giữa nội dung */
+}
+
+/* Định dạng cho tiêu đề trong tour-card */
+.tour-details h3 {
+    font-size: 1.25rem; /* Kích thước tiêu đề */
+    margin-bottom: 10px; /* Khoảng cách dưới tiêu đề */
+}
+
+/* Định dạng cho đoạn văn bản trong tour-card */
+.tour-details p {
+    font-size: 0.875rem; /* Kích thước văn bản */
+    color: #555; /* Màu văn bản nhạt hơn */
+    margin-bottom: 10px; /* Khoảng cách dưới mỗi đoạn văn bản */
+}
+
+/* Định dạng cho nút trong tour-card */
+.tour-details .btn-primary {
+    background-color: #007bff; /* Màu nền của nút */
+    border: none; /* Bỏ border của nút */
+    padding: 10px 20px; /* Padding cho nút */
+}
+
+/* Hiệu ứng khi hover trên nút */
+.tour-details .btn-primary:hover {
+    background-color: #0056b3; /* Màu nền của nút khi hover */
+}

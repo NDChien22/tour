@@ -1,0 +1,109 @@
+/* Styles for the sidebar */
+.sidebar {
+    background-color: #007bff; /* Light blue for sidebar background */
+    color: white;
+    min-height: 100vh; /* Ensure sidebar takes full height */
+    padding: 20px 0;
+}
+
+.sidebar .nav-link {
+    color: white;
+    background-color: #007bff; /* Light blue background for default state */
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.sidebar .nav-link.active {
+    background-color: #004085; /* Darkest blue when active */
+    color: white;
+}
+
+/* Styling for the header */
+.navbar-text {
+    margin-right: 10px;
+}
+
+/* Main content styling */
+.main-content {
+    padding: 20px;
+}
+
+/* Form styling for add_city page */
+main h2 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    color: #333;
+    font-weight: 600;
+}
+
+main form {
+    background-color: #f8f9fa;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+main .form-group label {
+    font-weight: 500;
+    color: #495057;
+    margin-bottom: 8px;
+}
+
+main .form-group input,
+main .form-group select {
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 10px 12px;
+    transition: border-color 0.3s ease;
+}
+
+main .form-group input:focus,
+main .form-group select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+main .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+main .btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for table header */
+.table thead {
+    background-color: #007bff; /* Blue background for table header */
+    color: white; /* White text color */
+}
+
+/* Styles for the report section */
+#report h3 {
+    margin-top: 20px;
+}
+
+/* CSS trong admin.css */
+.nav-link.active {
+    font-weight: bold;
+    background-color: #007bff; /* Màu nền nổi bật khi chọn */
+    color: #fff; /* Màu chữ nổi bật khi chọn */
+}
+
+/* Alert messages styling */
+.alert {
+    border-radius: 4px;
+    margin-bottom: 20px;
+}

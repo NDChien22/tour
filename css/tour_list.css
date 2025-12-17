@@ -1,0 +1,58 @@
+
+.tour-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tour-card img {
+    width: 100%;
+    height: auto;
+}
+
+.tour-details {
+    padding: 15px;
+}
+
+.tour-details h3 {
+    margin-top: 0;
+    color: #007bff;
+}
+
+.tour-details p {
+    margin: 5px 0;
+}
+
+.tour-details .btn {
+    margin-top: 10px;
+}
+.tour-details {
+    padding: 15px; /* Padding bên trong cho nội dung */
+    text-align: center; /* Căn giữa nội dung */
+}
+/* Responsive Styles */
+@media (max-width: 767px) {
+    .tour-card {
+        margin-bottom: 20px;
+    }
+}
+
+.content {
+    background-image: url('/img/background_topcontent.jpg'); /* Đường dẫn đến ảnh */
+    background-repeat: no-repeat; /* Không lặp lại ảnh */
+    background-size: cover; /* Đảm bảo ảnh phủ kín toàn bộ phần tử */
+    background-color: #000; /* Màu nền dự phòng khi ảnh không phủ kín */
+    width: 100%; /* Đảm bảo chiều rộng của phần tử là 100% */
+}
+
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
+}
